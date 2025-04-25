@@ -252,7 +252,7 @@ function cargarFooter(){
 }
 
 function obtenerInfo() {
-    return fetch("../assets/JSON/platos.json")
+    return fetch("./assets/JSON/platos.json")
         .then((response) => response.json())
         .then((datos) => {
             return datos.nosotros;
@@ -261,7 +261,7 @@ function obtenerInfo() {
 }
 
 function obtenerPlatos() {
-    return fetch("../assets/JSON/platos.json")
+    return fetch("./assets/JSON/platos.json")
         .then((response) => response.json())
         .then((datos) => {
             return datos.platos;
