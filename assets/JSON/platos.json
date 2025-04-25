@@ -1,0 +1,439 @@
+{
+    "nosotros" : {
+        "titulo" : "Pizzeria Il Fornaio",
+        "descripcion" : "descripcion breve",
+        "locales" : [
+            {
+                "id" : 1,
+                "direccion" : "📍 Calle 12 143, Pilar, Bs As, Argentina.",
+                "email" : "📩 menu-digital.com.ar",
+                "telefono" : "📞 1122334455"
+            },
+            {
+                "id" : 2,
+                "direccion" : "Ubicacion 2",
+                "email" : "Direccion 2",
+                "telefono" : "📞 123456789"
+            },
+            {
+                "id" : 3,
+                "direccion" : "Ubicacion 3",
+                "email" : "Direccion 3",
+                "telefono" : "📞 123456789"
+            }
+        ],
+        "redes" : [
+            {
+                "id" : 1,
+                "nombre" : "instagram",
+                "instagram" : "https://www.instagram.com/"
+            },
+            {
+                "id" : 2,
+                "nombre" : "facebook",
+                "facebook" : "https://www.facebook.com/"
+            }
+        ]
+    },
+    "platos" : {
+        "libre" : [
+            {
+                "id" : 1,
+                "nombre" : "Menu Libre",
+                "descripcion" : "Pizzas, pastas y empanadas libres todos los días",
+                "precio" : 12000,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 2,
+                "nombre" : "Menores",
+                "descripcion" : "Menores de 10 años",
+                "precio" : 7500,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            }
+        ],
+        "entradas" : [
+            {
+                "id" : 1,
+                "nombre" : "Pan de Pizza oliva dv catena",
+                "descripcion" : "Provolone, ajo, aceite de hierbas y salsa gustarosso.",
+                "precio" : 4300,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 2,
+                "nombre" : "Pan de Pizza de parmesano y ajo",
+                "descripcion" : "",
+                "precio" : 4700,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 3,
+                "nombre" : "Faina con provolone y cebolla",
+                "descripcion" : "",
+                "precio" : 5600,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 4,
+                "nombre" : "Faina con provolone y pepperoni",
+                "descripcion" : "",
+                "precio" : 6600,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 5,
+                "nombre" : "Burrata Il Fornaio",
+                "descripcion" : "Rúcula, burata, parmesano, tomate cherry confitados, pistachos y prociutto di parma.",
+                "precio" : 17800,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            }
+        ],
+        "pizzas" : [
+            {
+                "id" : 1,
+                "nombre" : "Marinara",
+                "descripcion" : "Tomate italiano San Marzano, ajo laminado, oregano y oliva dv catena.",
+                "precio" : 4400,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 2,
+                "nombre" : "Regina Marguerita",
+                "descripcion" : "Tomate italiano San Marzano, mozzarella Fior de Latte, parmigiano reggiano, albahaca y oliva dv catena.",
+                "precio" : 6000,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 3,
+                "nombre" : "Cipolla Caramellata",
+                "descripcion" : "Mozzarella Fior di Latte, cebolla asada, oregano, parmigiano rallado y oliva de hierbas.",
+                "precio" : 6300,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 4,
+                "nombre" : "Fifone",
+                "descripcion" : "Tomate italiano San Marzano, mozzarella Fior de Latte, laminas de parmigiano reggiano y oliva dv catena.",
+                "precio" : 6500,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 5,
+                "nombre" : "Fugazzi",
+                "descripcion" : "Tomate italiano San Marzano, queso provolone con pimienta, cebolla morada y aceite de hierbas.",
+                "precio" : 6750,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 6,
+                "nombre" : "San Pepperone",
+                "descripcion" : "Tomate italiano San Marzano, mozzarella Fior di Latte, pepperoni y oliva picante.",
+                "precio" : 7000,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 7,
+                "nombre" : "Av. Corrientes",
+                "descripcion" : "Tomate italiano San Marzano, mozzarella Fior di Latte, jamón cocido natural y morrones asados.",
+                "precio" : 8000,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 8,
+                "nombre" : "4 Formaggi Il Fornaio",
+                "descripcion" : "Mozzarella Fior di Latte, parmigiano reggiano, pepato gorgonzola y pasta de ajo.",
+                "precio" : 8400,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 9,
+                "nombre" : "Pomodorina",
+                "descripcion" : "Tomate italiano San Marzano, queso pepato, ricotta con albahaca, tomates cherrys confitados y oliva de hierbas.",
+                "precio" : 8400,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 10,
+                "nombre" : "Volcán Vesuvio",
+                "descripcion" : "Tomate italiano San Marzano, queso pepato, ajo laminado, peperonne picado y miel picante.",
+                "precio" : 8750,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 11,
+                "nombre" : "La Pipinetta",
+                "descripcion" : "Tomate italiano San Marzano, queso pepato, queso brie, tomates cherry confitados, romero, miel y nueces caramelizadas.",
+                "precio" : 8800,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 12,
+                "nombre" : "Peras al Vino",
+                "descripcion" : "Parmigiano reggiano, gorgonzola, pera al malbec, nueces caramelizadas, almibar de vino y aceite de hierbas.",
+                "precio" : 8800,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 13,
+                "nombre" : "Av. Ctes. alla Fornaio",
+                "descripcion" : "Tomate italiano San Marzano, mozzarella Fior di Latte, morrones en conserva, prosciutto cotto naturale, stracciatella, oregano y aceite de oliva dv catena.",
+                "precio" : 9100,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 14,
+                "nombre" : "Il Capitano",
+                "descripcion" : "Pesto, mozzarella Fior di Latte, queso brie, mortadella con pistachio y pistachos enteros.",
+                "precio" : 9100,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 15,
+                "nombre" : "Funghi e Aglio Nero",
+                "descripcion" : "Hongos, ajo negro, queso provolone con pimienta, ralladura de lima y aceite de hierbas.",
+                "precio" : 9100,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 16,
+                "nombre" : "Malandrina",
+                "descripcion" : "Tomate italiano San Marzano, mozzarella Fior di Latte, prosciutto di parma, rucula, laminas de parmigiano reggiano y oliva dv catena.",
+                "precio" : 9800,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 17,
+                "nombre" : "Sole di Sorrento",
+                "descripcion" : "Tomate italiano San Marzano, ajo laminado, rucula, stracciatella, tomates cherry confitados y mozzarella Fior di Latte.",
+                "precio" : 11300,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 18,
+                "nombre" : "La Farfalla",
+                "descripcion" : "Tomate italiano San Marzano, burrata, mortadella con pistachios caramelizados y pesto.",
+                "precio" : 11800,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            }
+        ],
+        "sandwiches" : [
+            {
+                "id" : 1,
+                "nombre" : "Sandwich Parma",
+                "descripcion" : "Prosciutto di parma, mozzarella Fior di Latte, rucula, tomates confitados, pesto y pistachios.",
+                "precio" : 11900,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            },
+            {
+                "id" : 2,
+                "nombre" : "Sandwich Camorra",
+                "descripcion" : "Mortadella con pistachios, mozzarella Fior di Latte, pistachios caramelizados, pesto y tomate italiano San Marzano.",
+                "precio" : 9800,
+                "imagen" : "./assets/IMG/not-found/image-not-found.png"
+            }
+        ],
+        "aperitivos" : [
+            {
+                "id" : 1,
+                "nombre" : "Vermouth con Soda",
+                "descripcion" : "",
+                "precio" : 4200,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 2,
+                "nombre" : "Fernet con Coca",
+                "descripcion" : "",
+                "precio" : 5100,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 3,
+                "nombre" : "Aperol Sritz",
+                "descripcion" : "",
+                "precio" : 6100,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            }
+        ],
+        "postres" : [
+            {
+                "id" : 1,
+                "nombre" : "Cannoli de Pistachio X2",
+                "descripcion" : "",
+                "precio" : 8900,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 2,
+                "nombre" : "Tiramisu",
+                "descripcion" : "",
+                "precio" : 8900,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 3,
+                "nombre" : "CheeseCake",
+                "descripcion" : "",
+                "precio" : 8900,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 4,
+                "nombre" : "Pavlova",
+                "descripcion" : "",
+                "precio" : 8900,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 5,
+                "nombre" : "Café Expresso",
+                "descripcion" : "",
+                "precio" : 3900,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 6,
+                "nombre" : "Té",
+                "descripcion" : "",
+                "precio" : 2500,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            }
+        ],
+        "bebidas" : [
+            {
+                "id" : 1,
+                "nombre" : "Agua",
+                "descripcion" : "",
+                "precio" : 2300,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 2,
+                "nombre" : "Sifoncito de Soda",
+                "descripcion" : "",
+                "precio" : 2300,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 3,
+                "nombre" : "Coca Común",
+                "descripcion" : "",
+                "precio" : 3100,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 4,
+                "nombre" : "Coca Zero",
+                "descripcion" : "",
+                "precio" : 3100,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 5,
+                "nombre" : "Sprite Común",
+                "descripcion" : "",
+                "precio" : 3100,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 6,
+                "nombre" : "Srpite Zero",
+                "descripcion" : "",
+                "precio" : 3100,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 7,
+                "nombre" : "Fanta Común",
+                "descripcion" : "",
+                "precio" : 3100,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 8,
+                "nombre" : "Schweppes Pomelo",
+                "descripcion" : "",
+                "precio" : 3100,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 9,
+                "nombre" : "Aquarius Manzana",
+                "descripcion" : "",
+                "precio" : 3000,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 10,
+                "nombre" : "Aquarius Pomelo",
+                "descripcion" : "",
+                "precio" : 3000,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 11,
+                "nombre" : "Aquarius Pera",
+                "descripcion" : "",
+                "precio" : 3000,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 12,
+                "nombre" : "Andes Rubia",
+                "descripcion" : "",
+                "precio" : 4200,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 13,
+                "nombre" : "Andes Roja",
+                "descripcion" : "",
+                "precio" : 4200,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 14,
+                "nombre" : "Andes IPA",
+                "descripcion" : "",
+                "precio" : 4200,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 15,
+                "nombre" : "Andes Negra",
+                "descripcion" : "",
+                "precio" : 4200,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 16,
+                "nombre" : "Corona Porron",
+                "descripcion" : "",
+                "precio" : 4700,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 17,
+                "nombre" : "Peroni",
+                "descripcion" : "",
+                "precio" : 6100,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 18,
+                "nombre" : "Corona Sin Alcohol",
+                "descripcion" : "",
+                "precio" : 4700,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            },
+            {
+                "id" : 19,
+                "nombre" : "Stella Sin Alcohol",
+                "descripcion" : "",
+                "precio" : 4700,
+                "imagen" : "./assets/IMG/image-not-found.png"
+            }
+        ]
+    }
+}
