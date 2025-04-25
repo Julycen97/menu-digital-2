@@ -40,7 +40,7 @@
             {
                 "id" : 1,
                 "nombre" : "Menu Libre",
-                "descripcion" : "Pizzas, pastas y empanadas libres todos los días",
+                "descripcion" : "Pizzas y sandwiches libres todos los días",
                 "precio" : 12000,
                 "imagen" : "./assets/IMG/image-not-found.png"
             },
